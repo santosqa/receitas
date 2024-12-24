@@ -3,29 +3,47 @@
   padding: 0;
 }
 
-:root{
-  font-family: "Alice", serif;
+:root {
+  font-family: 'Alice', serif;
   /* line-height: 150%; */
-  color: #573A37;
+  color: #573a37;
 }
 
 body {
   background-image: url(/assets/bg_baiao_de_dois_opacity_1200x800.jpg);
-  background-color: #291B1A;
+  background-color: #291b1a;
   background-size: cover;
 }
 
-
 #page-cupcake {
   /*<- box-sizing: border-box; Remove o padrão da caixa para acatar os padrões manual informados no css -- */
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  position: relative;
   width: 800px;
   padding: 24px;
-  background-color: #F0E8C2;
-  opacity: 0.7;  
+  background-color: #f0e8c2;
+  opacity: 0.7;
   border-radius: 24px;
   margin: 48px auto 28px;
 }
+
+.back-button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.back-button img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 img {
   border-radius: 16px;
@@ -34,9 +52,9 @@ img {
 }
 
 figcaption {
- font-size: 09px;
-
+  font-size: 09px;
 }
+
 
 section h2 {
   margin-top: 24px;
@@ -60,10 +78,10 @@ h2 {
   line-height: 150%;
 }
 
-h1, h2 {
-  color: #291B1A;
+h1,
+h2 {
+  color: #291b1a;
   margin-bottom: 4px;
-
 }
 
 ul {
@@ -71,14 +89,43 @@ ul {
 }
 
 footer {
-  color: #F0E8C2;
+  color: #f0e8c2;
   text-align: center;
-  padding-bottom: 48px; 
-
+  padding-bottom: 48px;
 }
 footer img {
   width: 20px;
   height: 20px;
   vertical-align: middle;
   margin: 0 4px;
+}
+footer button {
+  margin-bottom: 10px;
+}
+
+.modern-button {
+  background-color: #6213b0; /* Cor de fundo do botão */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.modern-button a {
+  color: rgb(243, 238, 238);
+  text-decoration: none;
+}
+
+.modern-button:hover {
+  background-color: #b300b3; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.2);
+}
+
+.modern-button:active {
+  background-color: hwb(299 0% 50%); /* Cor de fundo ao clicar */
 }

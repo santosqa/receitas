@@ -25,10 +25,20 @@
       href="https://fonts.googleapis.com/css2?family=Alice&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
     <div id="page-cupcake">
       <figure>
+        <button
+          class="back-button"
+          onclick="window.location.href='../index.html';"
+        >
+          <img src="../assets/voltar.png" alt="Voltar" />
+        </button>
         <img
           src="../assets/baiao_de_dois_752x400.jpg"
           alt="Imagem de cupcake de café com chantily e grãos de café"
@@ -138,15 +148,27 @@
       </main>
     </div>
     <footer>
-      Feito com <img src="../assets/heart.svg" alt="imagem de coração" /> por
-      <a
-        href="https://santosqa.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="site Santos QA"
-      >
-        @santosqa_
-      </a>
+      <button class="modern-button">
+        <a
+          href="../index.html"
+          rel="noopener noreferrer"
+          aria-label="Botão para voltar para o menu de receitas"
+        >
+          <i class="fas fa-arrow-left"></i> Voltar para o menu de receitas
+        </a>
+      </button>
+      <p>
+        <br />
+        Feito com <img src="../assets/heart.svg" alt="imagem de coração" /> por
+        <a
+          href="https://santosqa.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="site Santos QA"
+        >
+          @santosqa_
+        </a>
+      </p>
     </footer>
   </body>
 </html>
