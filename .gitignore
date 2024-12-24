@@ -24,3 +24,8 @@ Thumbs.db
 *.tmp
 *.temp
 
+# Arquivos de build
+node_modules/
+dist/
+out/
+*.log
