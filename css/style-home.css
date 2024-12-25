@@ -6,22 +6,22 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(../receitas/assets/bg-mobile.jpg);
+  --bg-url: url(../assets/bg-mobile.jpg);
   --botao-border-color: rgba(255, 255, 255, 0.5);
   --botao-color: rgba(255, 255, 255, 0.05);
   --botao-color-hover: rgba(0, 0, 0, 0.2);
   --social-link-hover: rgba(255, 255, 255, 0.5);
-  --switch-bg: white url(../receitas/assets/moon-stars.svg);
+  --switch-bg: white url(./receitas/assets/moon-stars.svg);
 }
 
 .light {
   --text-color: black;
-  --bg-url: url(../receitas/assets/bg-mobile-light.jpg);
+  --bg-url: url(./assets/bg-mobile-light.jpg);
   --botao-border-color: rgba(0, 0, 0, 0.5);
   --botao-color: rgba(0, 0, 0, 0.089);
   --botao-color-hover: rgba(0, 0, 0, 0.3);
   --social-link-hover: rgba(0, 0, 0, 0.25);
-  --switch-bg: white url(../receitas/assets/sun.svg);
+  --switch-bg: white url(./receitas/assets/sun.svg);
 }
 
 body {
@@ -271,10 +271,10 @@ footer {
 /* Media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(../receitas/assets/bg-desktop.jpg); 
+    --bg-url: url(./receitas/assets/bg-desktop.jpg); 
   }
   .light {
-    --bg-url: url(../receitas/assets/bg-desktop-light.jpg);
+    --bg-url: url(./receitas/assets/bg-desktop-light.jpg);
   }
 }
 
