@@ -8,11 +8,9 @@
 [![Apartamento Vista Mar](https://img.shields.io/badge/www-ApartamentoVistaMar.com-%238be9fd.svg?&style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.apartamentovistamar.com/)
 [![Página do projeto](https://img.shields.io/badge/GitHub-Projeto%20Receitas-%23ffb86c?style=for-the-badge&logo=github&logoColor=white)](https://santosqa.github.io/receitas/)
 
-#
+<br/>
 
 # 🧑‍🍳🍲 **Bem-vindo ao Repositório de Receitas Nerds!** 📚👨‍💻
-
-
 
 Este projeto é uma deliciosa combinação de aprendizado e gastronomia! Aqui, você pode praticar suas habilidades de desenvolvimento web enquanto descobre receitas incríveis para dar um upgrade na sua alimentação! 🍽️✨
 
