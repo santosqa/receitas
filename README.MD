@@ -6,6 +6,7 @@
 [![Instagram](https://img.shields.io/badge/>-instagram-%23ff5555.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/santosqa_/)
 [![Santos QA](https://img.shields.io/badge/www-santosqa.com-%23bd93f9.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white)](https://www.santosqa.com)
 [![Apartamento Vista Mar](https://img.shields.io/badge/www-ApartamentoVistaMar.com-%238be9fd.svg?&style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.apartamentovistamar.com/)
+[![Santos Locais Turisticos](https://img.shields.io/badge/GitHub-Santos%20Locais%20Turísticos-%23ff79c6?style=for-the-badge&logo=github&logoColor=white)](https://santosqa.github.io/santos-locais-turisticos/)
 [![Santos Links](https://img.shields.io/badge/GitHub-Projeto%20Santos%20Links-%23FFD700?style=for-the-badge&logo=github&logoColor=white)](https://santosqa.github.io)
 
 <br/>
@@ -47,8 +48,9 @@ Bon appétit e happy coding! 🚀🎉
 ---
 
 ## Links uteis
-- [Página de receitas](https://receitas.github.io/)
-- [Materiais complementares](https://efficient-sloth-d85.notion.site/Materiais-complementares-d7841615addc4269ba5c5bba12a6edbe)
+- [Página de receitas](https://santosqa.github.io/receitas/)
+
+- [Dev Docs](https://devdocs.io/#section-10.4)
 
 - [CSS Tricks](https://css-tricks.com/)
 
@@ -70,7 +72,7 @@ Siga os passos abaixo para clonar este repositório, remover o rastreamento remo
 Para começar, você precisa clonar o repositório usando o comando `git clone`. Abra o terminal e digite o seguinte comando:
 
 ```bash
-git clone https://github.com/santosqa/receitas.github.io.git
+git clone https://github.com/santosqa/receitas.git
 ```
 Isso vai criar uma cópia local do repositório em seu sistema.
 
@@ -78,7 +80,7 @@ Isso vai criar uma cópia local do repositório em seu sistema.
 Depois de clonar o repositório, navegue até o diretório do projeto:
 
 ```bash
-cd receitas.github.io
+cd <> 
 ```
 ### Passo 3: Remover o Rastreamento Remoto
 Para evitar que suas alterações sejam enviadas para o repositório original, remova o rastreamento remoto:
